@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100%;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    box-shadow: 0 3px 10px 0 #555;
+} 
+
+/* 
+logo da loja 
+*/
+.logo{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    padding: 10px;
+    
+}
+.imagem-logo{
+    width: 100px;
+    height: 100px;
+}
+/*
+menu de deirecionamento
+*/
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e3a71;
+}
+/*
+conteudo
+*/
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #3e3a71;
+    
+}
+
+.products{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    
+}
+
+.item {
+    border : 1px solid rgba(0, 0, 0, 0.377);
+    width: 250px;
+    height: 250px;
+    background-color: white;
+}
+
+.imagem-produto {
+    width: 233px;
+    height: 170px;
+}
+
+/*
+roda-pé
+*/
+a{
+    color:#fff;
+}
+.contacts{
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    width: 100%;
+    height: 50px;
+    justify-content: center;
+    align-items: center; 
+    background-image: url(https://th.bing.com/th/id/OIP.d65Mse3wUqMsPALlEm1Q5QAAAA?pid=ImgDet&w=191&h=144&c=7);
+    background-color: #3e3a71;
+    background-position: top center;
+    background-repeat: repeat;
+}
